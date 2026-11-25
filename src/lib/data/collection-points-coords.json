@@ -1,0 +1,302 @@
+{
+  "Sede Robótica Sustentável": {
+    "lat": -3.729769,
+    "lng": -38.599699,
+    "precisao": "residential",
+    "consulta": "Rua Francisquinha Portela, 1050 C, Fortaleza, Ceará, Brasil"
+  },
+  "Ninna Hub": {
+    "lat": -3.73291,
+    "lng": -38.522918,
+    "precisao": "place",
+    "consulta": "Av. Dom Manuel, 1020, Centro, Fortaleza, Ceará, Brasil"
+  },
+  "Transforme Coworking": {
+    "lat": -3.73589,
+    "lng": -38.506484,
+    "precisao": "place",
+    "consulta": "Rua Torres Câmara, 600, Fortaleza, Ceará, Brasil"
+  },
+  "IEL Ceará": {
+    "lat": -3.74071,
+    "lng": -38.509117,
+    "precisao": "building",
+    "consulta": "Av. Barão de Studart, 1980, Fortaleza, Ceará, Brasil"
+  },
+  "SINDIVERDE": {
+    "lat": -3.74071,
+    "lng": -38.509117,
+    "precisao": "building",
+    "consulta": "Av. Barão de Studart, 1980, Fortaleza, Ceará, Brasil"
+  },
+  "Unifametro": {
+    "lat": -3.723746,
+    "lng": -38.542872,
+    "precisao": "amenity",
+    "consulta": "R. Carneiro da Cunha, 180, Jacarecanga, Fortaleza, Ceará, Brasil"
+  },
+  "ALECE": {
+    "lat": -3.748319,
+    "lng": -38.502039,
+    "precisao": "postcode",
+    "consulta": "60170-173, Fortaleza, Brasil"
+  },
+  "COGERH": {
+    "lat": -3.810381,
+    "lng": -38.492534,
+    "precisao": "building",
+    "consulta": "R. Adualdo Batista, 1550, Cambeba, Fortaleza, Ceará, Brasil"
+  },
+  "CONJER": {
+    "lat": -3.724068,
+    "lng": -38.60345,
+    "precisao": "residential",
+    "consulta": "Rua Moisés, 290, Quintino Cunha, Fortaleza, Ceará, Brasil"
+  },
+  "SEBRAELAB": {
+    "lat": -3.725528,
+    "lng": -38.511929,
+    "precisao": "tertiary",
+    "consulta": "R. Antônio Augusto, 290, Meireles, Fortaleza, Ceará, Brasil"
+  },
+  "Elephant Coworking": {
+    "lat": -3.741065,
+    "lng": -38.498559,
+    "precisao": "place",
+    "consulta": "R. Barbosa de Freitas, 1741, Aldeota, Fortaleza, Ceará, Brasil"
+  },
+  "IST SENAI": {
+    "lat": -3.8508,
+    "lng": -38.593072,
+    "precisao": "postcode",
+    "consulta": "61939-160, Maracanaú, Brasil"
+  },
+  "Hotel Sonata": {
+    "lat": -3.720402,
+    "lng": -38.512272,
+    "precisao": "tourism",
+    "consulta": "Av. Beira Mar, 848, Praia de Iracema, Fortaleza, Ceará, Brasil"
+  },
+  "Planet Coworking": {
+    "lat": -3.729002,
+    "lng": -38.528527,
+    "precisao": "place",
+    "consulta": "R. Major Facundo, 692, Centro, Fortaleza, Ceará, Brasil"
+  },
+  "Condomínio Antonio Martins": {
+    "lat": -3.73602,
+    "lng": -38.495592,
+    "precisao": "residential",
+    "consulta": "Rua Maria Tomásia, 855, Aldeota, Fortaleza, Ceará, Brasil"
+  },
+  "Pague Menos": {
+    "lat": -3.738385,
+    "lng": -38.532887,
+    "precisao": "postcode",
+    "consulta": "60025-001, Fortaleza, Brasil"
+  },
+  "Vapt Vupt — Centro": {
+    "lat": -3.72608,
+    "lng": -38.529952,
+    "precisao": "shop",
+    "consulta": "Shopping Central, R. Gen. Sampaio, Fortaleza, Ceará, Brasil"
+  },
+  "Vapt Vupt — Antônio Bezerra": {
+    "lat": -3.733401,
+    "lng": -38.584423,
+    "precisao": "primary",
+    "consulta": "R. Demétrio Menezes, 3750, Antônio Bezerra, Fortaleza, Ceará, Brasil"
+  },
+  "Vapt Vupt — Messejana": {
+    "lat": -3.83179,
+    "lng": -38.500642,
+    "precisao": "office",
+    "consulta": "Av. Jornalista Tomaz Coelho, 408, Messejana, Fortaleza, Ceará, Brasil"
+  },
+  "Toyota Newland WS": {
+    "lat": -3.766172,
+    "lng": -38.482366,
+    "precisao": "trunk",
+    "consulta": "Av. Washington Soares, 1550, Edson Queiroz, Fortaleza, Ceará, Brasil"
+  },
+  "Newsedan Mercedes-Benz": {
+    "lat": -3.760978,
+    "lng": -38.492538,
+    "precisao": "building",
+    "consulta": "Av. Rogaciano Leite, 323, Guararapes, Fortaleza, Ceará, Brasil"
+  },
+  "Newcenter Porsche": {
+    "lat": -3.766172,
+    "lng": -38.482366,
+    "precisao": "trunk",
+    "consulta": "Av. Washington Soares, 85A, Edson Queiroz, Fortaleza, Ceará, Brasil"
+  },
+  "Faculdade CDL": {
+    "lat": -3.730825,
+    "lng": -38.523232,
+    "precisao": "place",
+    "consulta": "R. Vinte e Cinco de Março, 780, Centro, Fortaleza, Ceará, Brasil"
+  },
+  "Faculdade INBEC": {
+    "lat": -3.750072,
+    "lng": -38.5063,
+    "precisao": "building",
+    "consulta": "R. Joaquim Nabuco, 2906, Dionísio Torres, Fortaleza, Ceará, Brasil"
+  },
+  "Instituto Atlântico": {
+    "lat": -3.762291,
+    "lng": -38.480938,
+    "precisao": "shop",
+    "consulta": "Av. Washington Soares, 909, Fortaleza, Ceará, Brasil"
+  },
+  "Sellene Hospitalar": {
+    "lat": -3.736143,
+    "lng": -38.51118,
+    "precisao": "place",
+    "consulta": "R. João Carvalho, 205, Aldeota, Fortaleza, Ceará, Brasil"
+  },
+  "Associação ARCOS / ARCOS Ponto de Cultura": {
+    "lat": -3.425031,
+    "lng": -39.031148,
+    "precisao": "secondary",
+    "consulta": "Av. João Lopes Meireles, Paracuru, Ceará, Brasil"
+  },
+  "Termaco Portuário": {
+    "lat": -3.796346,
+    "lng": -38.50703,
+    "precisao": "primary",
+    "consulta": "BR-116, km 4, 7250, Cajazeiras, Fortaleza, Ceará, Brasil"
+  },
+  "Meireles e Freitas": {
+    "lat": -3.73023,
+    "lng": -38.525763,
+    "precisao": "office",
+    "consulta": "R. Sena Madureira, 1070, Centro, Fortaleza, Ceará, Brasil"
+  },
+  "Condomínio Gran Parc": {
+    "lat": -3.804931,
+    "lng": -38.481164,
+    "precisao": "residential",
+    "consulta": "R. dos Amigos, 100, Cambeba, Fortaleza, Ceará, Brasil"
+  },
+  "Maranguape": {
+    "lat": -3.891812,
+    "lng": -38.68354,
+    "precisao": "amenity",
+    "consulta": "61948-040, Maranguape, Brasil"
+  },
+  "Locmed": {
+    "lat": -3.827476,
+    "lng": -38.503423,
+    "precisao": "place",
+    "consulta": "R. Herbene, 425, Messejana, Fortaleza, Ceará, Brasil"
+  },
+  "Cequip": {
+    "lat": -3.887987,
+    "lng": -38.501694,
+    "precisao": "trunk",
+    "consulta": "BR-116, 3439, Paupina, Fortaleza, Ceará, Brasil"
+  },
+  "Conecty Fibra": {
+    "lat": -3.406691,
+    "lng": -39.026549,
+    "precisao": "secondary",
+    "consulta": "Av. João Lopes Meireles, 1421, Paracuru, Ceará, Brasil"
+  },
+  "Silicontech": {
+    "lat": -3.735389,
+    "lng": -38.508231,
+    "precisao": "place",
+    "consulta": "Rua Doutor José Lourenço, 1300, Fortaleza, Ceará, Brasil"
+  },
+  "UECE": {
+    "lat": -3.786588,
+    "lng": -38.550937,
+    "precisao": "amenity",
+    "consulta": "Av. Dr. Silas Munguba, 1700, Itaperi, Fortaleza, Ceará, Brasil"
+  },
+  "Associação Arte e Acordes ARCOS": {
+    "lat": -3.425031,
+    "lng": -39.031148,
+    "precisao": "secondary",
+    "consulta": "Av. João Lopes Meireles, Paracuru, Ceará, Brasil"
+  },
+  "Super Mercadinhos São Luiz — Loja Oliveira Paiva": {
+    "lat": -3.799364,
+    "lng": -38.503211,
+    "precisao": "building",
+    "consulta": "Av. Oliveira Paiva, 170, Cidade dos Funcionários, Fortaleza, Ceará, Brasil"
+  },
+  "Olmix": {
+    "lat": -22.272288,
+    "lng": -50.544291,
+    "precisao": "amenity",
+    "consulta": "19740-000, Bora, Brasil"
+  },
+  "Concentrix": {
+    "lat": -3.731016,
+    "lng": -38.515734,
+    "precisao": "building",
+    "consulta": "R. Gonçalves Lêdo, 777, Centro, Fortaleza, Ceará, Brasil"
+  },
+  "Line Coworking": {
+    "lat": -3.75259,
+    "lng": -38.51997,
+    "precisao": "place",
+    "consulta": "Av. Visconde do Rio Branco, 3609, Joaquim Távora, Fortaleza, Ceará, Brasil"
+  },
+  "LC — Aço Cearense": {
+    "lat": -3.726619,
+    "lng": -38.504426,
+    "precisao": "building",
+    "consulta": "Av. Barão de Studart, 300, Fortaleza, Ceará, Brasil"
+  },
+  "ACC Filial 1919 — Aço Cearense": {
+    "lat": -3.73199,
+    "lng": -38.540051,
+    "precisao": "building",
+    "consulta": "R. Antônio Pompeu, 1919 A, Farias Brito, Fortaleza, Ceará, Brasil"
+  },
+  "ACC Filial 2000 — Aço Cearense": {
+    "lat": -3.726755,
+    "lng": -38.545662,
+    "precisao": "primary",
+    "consulta": "Av. Duque de Caxias, 2000, Jacarecanga, Fortaleza, Ceará, Brasil"
+  },
+  "ACL — Aço Cearense": {
+    "lat": -3.751204,
+    "lng": -38.610349,
+    "precisao": "residential",
+    "consulta": "R. Cruzeiro do Sul, s/n, Caucaia, Ceará, Brasil"
+  },
+  "ACI Matriz — Aço Cearense": {
+    "lat": -3.745313,
+    "lng": -38.607383,
+    "precisao": "residential",
+    "consulta": "61616-000, Caucaia, Brasil"
+  },
+  "ACI Filial — Aço Cearense": {
+    "lat": -3.741273,
+    "lng": -38.603765,
+    "precisao": "secondary",
+    "consulta": "Rodovia BR-222, s/n, Caucaia, Ceará, Brasil"
+  },
+  "SEFAZ 02": {
+    "lat": -3.724381,
+    "lng": -38.524924,
+    "precisao": "primary",
+    "consulta": "Av. Alberto Nepomuceno, 77, Fortaleza, Ceará, Brasil"
+  },
+  "Digital College Aldeota": {
+    "lat": -3.732587,
+    "lng": -38.510449,
+    "precisao": "office",
+    "consulta": "Av. Santos Dumont, 1510, Fortaleza, Ceará, Brasil"
+  },
+  "Digital College Sul": {
+    "lat": -3.788174,
+    "lng": -38.479701,
+    "precisao": "building",
+    "consulta": "Av. Washington Soares, 3663, Fortaleza, Ceará, Brasil"
+  }
+}

@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Design System — Instituto Robótica Sustentável
+   Todas as cores, raios, espaçamentos e fontes do site vêm daqui.
+   Nos componentes use só as classes geradas (bg-verde-escuro, rounded-cartao,
+   px-gutter...). Nada de hex solto nos componentes.
+   ========================================================================== */
+
+@theme {
+  /* --- Cores ------------------------------------------------------------ */
+  /* Marca */
+  --color-verde-escuro: #0a7000; /* seções de destaque, footer, botão primário */
+  --color-verde-claro: #05a61d; /* só ícones e detalhes: 3.2:1 com branco, não usar em texto branco pequeno */
+  --color-verde-complementar: #20731d;
+  --color-amarelo: #f2d16d; /* destaques e botões sobre verde, com texto tinta. Como texto sobre verde-escuro (4.25:1), só em tamanho grande (≥24px, ou ≥19px em negrito) */
+  --color-branco: #ffffff;
+
+  /* Texto e superfícies */
+  --color-tinta: #12301a; /* texto principal */
+  --color-tinta-suave: #4a5f4c; /* texto secundário */
+  --color-borda: #e4ece2;
+  --color-fundo-suave: #f3f7f2;
+  --color-creme: #fff8de;
+  --color-borda-forte: #cfe0ca; /* chips "Ensinamos", contorno do mapa */
+
+  /* Marcadores das linhas de eletroeletrônicos (seção "O que você pode descartar"). Só bolinhas decorativas. */
+  --color-linha-branca: #b9bdb8;
+  --color-linha-marrom: #7a4a22;
+  --color-linha-azul: #2f6fc4;
+
+  /* Erros de formulário: 6.5:1 sobre branco, 6:1 sobre erro-fundo. */
+  --color-erro: #b3261e;
+  --color-erro-fundo: #fdf3f2;
+
+  /* --- Tipografia ------------------------------------------------------- */
+  /* As famílias vêm do next/font (ver @theme inline abaixo). */
+  --text-display: 2.75rem; /* 44px — título do hero no mobile */
+  --text-display--line-height: 1.02;
+  --text-titulo: 1.875rem; /* 30px — títulos de seção */
+  --text-titulo--line-height: 1.1;
+  --text-subtitulo: 1.375rem; /* 22px — títulos de cartão */
+  --text-subtitulo--line-height: 1.2;
+
+  /* --- Raios ------------------------------------------------------------ */
+  --radius-campo: 12px; /* inputs, chips quadrados, botão de ícone */
+  --radius-botao: 14px; /* botões */
+  --radius-cartao: 18px; /* cartões e blocos de estatística */
+  --radius-midia: 20px; /* imagens e cartões com foto */
+  --radius-painel: 24px; /* painéis grandes (ex.: "Quem somos") */
+  --radius-pill: 9999px; /* selos e tags */
+
+  /* --- Espaçamentos ----------------------------------------------------- */
+  /* A escala padrão do Tailwind (múltiplos de 4px) continua valendo. */
+  --spacing-gutter: 20px; /* padding lateral do container no mobile */
+  --spacing-gutter-lg: 32px; /* padding lateral a partir de md */
+  --spacing-toque: 44px; /* alvo de toque mínimo (WCAG 2.5.5) */
+  --spacing-botao: 54px; /* altura dos botões grandes */
+  --spacing-secao: 40px; /* espaço vertical entre seções no mobile */
+  --spacing-secao-lg: 96px; /* espaço vertical entre seções no desktop */
+
+  /* --- Layout ----------------------------------------------------------- */
+  --container-site: 1200px; /* max-w-site */
+}
+
+/* Fontes do next/font: as variáveis só existem em runtime, por isso "inline". */
+@theme inline {
+  --font-display: var(--font-baloo), ui-rounded, system-ui, sans-serif;
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* --------------------------------------------------------------------------
+   Foco visível
+   Por padrão o contorno é verde-escuro. Em superfícies escuras aplique a
+   classe `superficie-escura`: o contorno vira amarelo e o texto, branco.
+   -------------------------------------------------------------------------- */
+@utility superficie-escura {
+  --cor-foco: var(--color-amarelo);
+  background-color: var(--color-verde-escuro);
+  color: var(--color-branco);
+}
+
+@layer base {
+  :root {
+    --cor-foco: var(--color-verde-escuro);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    /* O header é fixo (64px): âncoras param logo abaixo dele. */
+    scroll-padding-top: 4.5rem;
+  }
+
+  body {
+    background-color: var(--color-branco);
+    color: var(--color-tinta);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--cor-foco);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Mapa dos pontos de coleta (Leaflet)
+   Os marcadores são L.divIcon com estas classes.
+   -------------------------------------------------------------------------- */
+@layer components {
+  .pino {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--color-branco);
+    border-radius: 50% 50% 50% 0;
+    background: var(--color-verde-escuro);
+    box-shadow: 0 2px 6px rgb(18 48 26 / 0.3);
+    transform: rotate(-45deg);
+    transition: transform 150ms ease;
+  }
+
+  .pino::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 9999px;
+    background: var(--color-branco);
+  }
+
+  .pino--sede::after {
+    background: var(--color-amarelo);
+  }
+
+  .pino--ativo {
+    border-color: var(--color-verde-escuro);
+    background: var(--color-amarelo);
+  }
+
+  .pino--ativo::after {
+    background: var(--color-verde-escuro);
+  }
+
+  .leaflet-marker-icon:focus-visible .pino {
+    outline: 3px solid var(--color-amarelo);
+    outline-offset: 2px;
+  }
+
+  .voce-aqui {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--color-branco);
+    border-radius: 9999px;
+    background: var(--color-linha-azul);
+    box-shadow: 0 0 0 8px rgb(47 111 196 / 0.18);
+  }
+
+  /* Fonte e cores do site nos controles e na atribuição do Leaflet. */
+  .leaflet-container {
+    font-family: var(--font-sans);
+    background: var(--color-fundo-suave);
+  }
+}

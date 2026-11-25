@@ -1,0 +1,303 @@
+{
+  "Metadata": {
+    "title": "Sustainable Robotics Institute",
+    "description": "Robotics, education and sustainability to transform the future."
+  },
+  "Header": {
+    "skipToContent": "Skip to content",
+    "homeLabel": "Sustainable Robotics Institute — home page",
+    "nameLine1": "Sustainable Robotics",
+    "nameLine2": "Institute",
+    "navLabel": "Main menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageLabel": "Language",
+    "languages": {
+      "pt": "Português",
+      "en": "English"
+    },
+    "nav": {
+      "institute": "About us",
+      "whatWeDo": "What we do",
+      "impact": "Impact",
+      "collectionPoints": "Drop-off points",
+      "contact": "Contact us",
+      "partner": "Become a partner"
+    }
+  },
+  "Hero": {
+    "badge": "Technology and sustainability education",
+    "title": "Waste that becomes <highlight>opportunity.</highlight>",
+    "description": "We turn electronic waste into technology and sustainability education, benefiting the people who need it most.",
+    "ctaPrimary": "Find a drop-off point",
+    "ctaSecondary": "Discover the Institute",
+    "imageAlt": "Students building robots in a workshop"
+  },
+  "Impact": {
+    "title": "Our impact",
+    "note": "2025 results · + 2 tech social businesses",
+    "stats": {
+      "tons": "tons of electronic waste collected",
+      "youth": "children and young people in exhibitions and workshops",
+      "companies": "companies benefited",
+      "points": "voluntary collection points"
+    }
+  },
+  "About": {
+    "eyebrow": "Who we are",
+    "title": "Technology that transforms the future",
+    "description": "We are an institute in Fortaleza, Brazil, dedicated to technology education, combining sustainability and innovation to empower critical, creative and conscious citizens.",
+    "valuesTitle": "Our values",
+    "values": {
+      "innovation": "Innovation",
+      "socialImpact": "Social impact",
+      "sustainability": "Sustainability",
+      "creativity": "Creativity",
+      "partnership": "Partnership and collaboration"
+    },
+    "missionLabel": "Mission:",
+    "mission": "to turn electronic waste into sustainable technology education for the people who need it most."
+  },
+  "Initiatives": {
+    "title": "What we do",
+    "items": {
+      "robotics": {
+        "title": "Educational robotics",
+        "description": "Sustainable robotics workshops for children aged 8 to 14, with kits made from recycled waste.",
+        "imageAlt": "An educator shows a cardboard robot to children in a classroom"
+      },
+      "inclusion": {
+        "title": "Digital inclusion",
+        "description": "Computer literacy and repair courses using recovered equipment.",
+        "imageAlt": "Young people repairing computers in a lab"
+      },
+      "events": {
+        "title": "Events and exhibitions",
+        "description": "Interactive exhibitions, robot battles and talks that bring the community closer to technology.",
+        "imageAlt": "The Institute team next to robots made from scrap at an exhibition"
+      }
+    },
+    "topicsTitle": "We teach",
+    "topics": {
+      "robotics": "Robotics",
+      "environmental": "Environmental education",
+      "computing": "Computer skills",
+      "maintenance": "PC repair",
+      "automation": "Automation and electronics",
+      "programming": "Programming"
+    }
+  },
+  "ImpactProcess": {
+    "title": "From disposal to impact",
+    "description": "How an unused device becomes a technology class.",
+    "steps": {
+      "donation": {
+        "title": "Donation",
+        "description": "Companies and individuals donate obsolete electronic equipment."
+      },
+      "collection": {
+        "title": "Collection",
+        "description": "The Institute receives the waste and ensures safe, proper disposal."
+      },
+      "reuse": {
+        "title": "Reuse",
+        "description": "Valuable components are sorted and turned into robotics kits."
+      },
+      "education": {
+        "title": "Education",
+        "description": "Young people and communities learn to use technology sustainably."
+      }
+    },
+    "imageAlt": "A cardboard robot on wheels, built on top of discarded electronic equipment"
+  },
+  "WasteTypes": {
+    "title": "What you can drop off",
+    "description": "We accept electrical and electronic equipment of every kind.",
+    "lines": {
+      "white": {
+        "title": "Large appliances",
+        "items": "Refrigerators, stoves, washers, dryers"
+      },
+      "brown": {
+        "title": "Audio and video",
+        "items": "TVs, radios, cameras, DVD players"
+      },
+      "green": {
+        "title": "IT and phones",
+        "items": "Computers, printers, mobile phones, laptops"
+      },
+      "blue": {
+        "title": "Small appliances",
+        "items": "Drills, blenders, mixers, irons"
+      }
+    }
+  },
+  "CollectionPoints": {
+    "title": "Proper disposal starts close to you.",
+    "description": "Find the nearest voluntary collection point and drop off your unused electronics.",
+    "searchLabel": "Search by neighborhood, city or place",
+    "searchPlaceholder": "E.g. Aldeota, Centro, Messejana",
+    "resultsCount": "{count, plural, =0 {No points found} one {# point found} other {# points found}}",
+    "empty": "No points found. Try another neighborhood or reach us on WhatsApp.",
+    "showAll": "See all {count} points",
+    "showLess": "Show less",
+    "filterLabel": "Filter by city",
+    "allCities": "All",
+    "nearMe": "Near me",
+    "locating": "Locating…",
+    "locationError": "We couldn't use your location. Check your browser permission or search by neighborhood.",
+    "sortedByDistance": "sorted by distance",
+    "mapLabel": "Map with {count, plural, one {# collection point} other {# collection points}}",
+    "mapLoading": "Loading map…",
+    "mapHint": "Use two fingers to move the map",
+    "youAreHere": "You are here",
+    "directions": "Get directions",
+    "distance": "{km} km",
+    "missingCoords": "{count, plural, one {# point is} other {# points are}} not on the map yet, but listed below."
+  },
+  "Projects": {
+    "title": "Projects and stories",
+    "carouselLabel": "Photos of the Institute's projects and activities. Scroll sideways to see more.",
+    "items": {
+      "campaign": {
+        "caption": "Zero E-Waste campaign",
+        "imageAlt": "The Institute team and partners in front of a truck loaded with electronic waste"
+      },
+      "workshops": {
+        "caption": "Community workshops",
+        "imageAlt": "A boy takes apart an electronic device at a workshop"
+      },
+      "community": {
+        "caption": "Social outreach",
+        "imageAlt": "A group of smiling children and young people at an Institute event"
+      },
+      "box": {
+        "caption": "Zero E-Waste collection box",
+        "imageAlt": "A wooden e-waste collection box with the Zero E-Waste seal"
+      },
+      "team": {
+        "caption": "Our team",
+        "imageAlt": "The Robótica Sustentável Institute team together"
+      }
+    },
+    "mediaTitle": "In the media",
+    "mediaList": "G1 · Globoplay · Um Só Planeta · O Povo · Tribuna do Ceará · Red Bull Amaphiko 2019"
+  },
+  "Partners": {
+    "title": "Let's build a more sustainable future",
+    "description": "Your company strengthens its ESG strategy, engages employees and turns waste into education.",
+    "plans": {
+      "donation": {
+        "name": "Waste donation",
+        "price": "Free",
+        "description": "On-site pickup, donation statement and annual ESG report."
+      },
+      "sustainability": {
+        "name": "Sustainability",
+        "price": "R$ 1,000",
+        "description": "Zero E-Waste seal, monthly pickup and 2 events a year."
+      },
+      "technology": {
+        "name": "Technology",
+        "price": "R$ 2,000",
+        "description": "Expanded marketing and 4 robotics events a year."
+      },
+      "robotics": {
+        "name": "Sustainable Robotics",
+        "price": "R$ 3,000",
+        "description": "1 event a month, a company mascot and an event app."
+      }
+    },
+    "pricesNote": "Reference prices. Talk to us to design the right partnership.",
+    "cta": "Become a partner"
+  },
+  "Footer": {
+    "description": "Sustainable technology education in Fortaleza, Ceará, Brazil.",
+    "navLabel": "Footer navigation",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "copyright": "© Instituto Robótica Sustentável"
+  },
+  "Contact": {
+    "eyebrow": "Get in touch",
+    "title": "Bring the Institute to your school or company",
+    "description": "Fill in the form and the conversation continues on our team's WhatsApp.",
+    "audienceLabel": "Who is getting in touch?",
+    "audience": {
+      "school": "School",
+      "company": "Company"
+    },
+    "audienceHint": {
+      "school": "Workshops and technology education for your students",
+      "company": "E-waste collection and ESG partnerships"
+    },
+    "requiredNote": "Fields marked * are required.",
+    "optional": "optional",
+    "fields": {
+      "name": "Your name",
+      "role": "Role",
+      "rolePlaceholder": "E.g. teaching coordinator",
+      "school": "School name",
+      "network": "School type",
+      "city": "City",
+      "students": "Approximate number of students",
+      "interests": "What is the school interested in?",
+      "company": "Company name",
+      "interest": "How would you like to take part?",
+      "wasteTypes": "What kind of equipment?",
+      "volume": "Estimated volume",
+      "message": "Message",
+      "messagePlaceholder": "Tell us a bit more (dates, classes, pickup address…)"
+    },
+    "selectPlaceholder": "Select",
+    "options": {
+      "network": {
+        "municipal": "Public (municipal)",
+        "state": "Public (state)",
+        "private": "Private",
+        "social": "NGO or social project"
+      },
+      "interests": {
+        "robotics": "Robotics workshops",
+        "environment": "Environmental education",
+        "computing": "Computing",
+        "events": "Talk or exhibition"
+      },
+      "interest": {
+        "donation": "Donate e-waste (free pickup)",
+        "partnership": "ESG partnership plan",
+        "dropoff": "Become a drop-off point"
+      },
+      "wasteTypes": {
+        "white": "Large appliances",
+        "brown": "Audio and video",
+        "green": "IT and phones",
+        "blue": "Small appliances"
+      },
+      "volume": {
+        "small": "A few items",
+        "boxes": "Some boxes",
+        "large": "Large volume or recurring disposal"
+      }
+    },
+    "errors": {
+      "required": "Please fill in this field.",
+      "choose": "Please choose an option.",
+      "summary": "Please check the highlighted fields."
+    },
+    "submit": "Continue on WhatsApp",
+    "submitHint": "Opens WhatsApp with the message ready. Nothing is sent until you confirm there.",
+    "opened": "We opened WhatsApp in a new tab with your message.",
+    "openFallback": "Didn't open? Tap here",
+    "whatsapp": {
+      "schoolIntro": "Hi! I found you through the website and would like to bring the Institute's technology education to my school.",
+      "companyIntro": "Hi! I found you through the website and would like to talk about e-waste recycling at my company.",
+      "labels": {
+        "name": "Name",
+        "interests": "Interests",
+        "interest": "Interest",
+        "wasteTypes": "Equipment"
+      }
+    }
+  }
+}

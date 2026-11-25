@@ -1,0 +1,303 @@
+{
+  "Metadata": {
+    "title": "Instituto Robótica Sustentável",
+    "description": "Robótica, educação e sustentabilidade para transformar o futuro."
+  },
+  "Header": {
+    "skipToContent": "Pular para o conteúdo",
+    "homeLabel": "Instituto Robótica Sustentável — página inicial",
+    "nameLine1": "Instituto Robótica",
+    "nameLine2": "Sustentável",
+    "navLabel": "Menu principal",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "languageLabel": "Idioma",
+    "languages": {
+      "pt": "Português",
+      "en": "English"
+    },
+    "nav": {
+      "institute": "O Instituto",
+      "whatWeDo": "O que fazemos",
+      "impact": "Impacto",
+      "collectionPoints": "Pontos de coleta",
+      "contact": "Fale com a gente",
+      "partner": "Seja parceiro"
+    }
+  },
+  "Hero": {
+    "badge": "Educação tecnológica e sustentável",
+    "title": "Resíduo que vira <highlight>oportunidade.</highlight>",
+    "description": "Transformamos resíduos eletrônicos em educação tecnológica e sustentável, beneficiando as pessoas que mais precisam.",
+    "ctaPrimary": "Encontre um ponto de coleta",
+    "ctaSecondary": "Conheça o Instituto",
+    "imageAlt": "Estudantes montando robôs em oficina"
+  },
+  "Impact": {
+    "title": "Nosso impacto",
+    "note": "Resultados de 2025 · + 2 negócios sociais de tecnologia",
+    "stats": {
+      "tons": "toneladas de resíduos eletroeletrônicos coletados",
+      "youth": "crianças e jovens em exposições e oficinas",
+      "companies": "empresas beneficiadas",
+      "points": "pontos de coleta voluntária"
+    }
+  },
+  "About": {
+    "eyebrow": "Quem somos",
+    "title": "Tecnologia que transforma o futuro",
+    "description": "Somos um instituto de Fortaleza dedicado à educação tecnológica, integrando sustentabilidade e inovação para formar cidadãos críticos, criativos e conscientes.",
+    "valuesTitle": "Nossos valores",
+    "values": {
+      "innovation": "Inovação",
+      "socialImpact": "Impacto social",
+      "sustainability": "Sustentabilidade",
+      "creativity": "Criatividade",
+      "partnership": "Parceria e colaboração"
+    },
+    "missionLabel": "Missão:",
+    "mission": "transformar resíduos eletrônicos em educação tecnológica e sustentável, beneficiando as pessoas que mais precisam."
+  },
+  "Initiatives": {
+    "title": "O que fazemos",
+    "items": {
+      "robotics": {
+        "title": "Robótica educacional",
+        "description": "Oficinas de robótica sustentável para crianças de 8 a 14 anos, com kits feitos de resíduos reciclados.",
+        "imageAlt": "Educador apresenta um robô de papelão para crianças em sala de aula"
+      },
+      "inclusion": {
+        "title": "Inclusão digital",
+        "description": "Cursos de informática e manutenção de computadores com equipamentos recuperados.",
+        "imageAlt": "Jovens consertando computadores em um laboratório"
+      },
+      "events": {
+        "title": "Eventos e exposições",
+        "description": "Exposições interativas, batalhas de robôs e palestras que aproximam a comunidade da tecnologia.",
+        "imageAlt": "Equipe do Instituto ao lado de robôs feitos com sucata em uma exposição"
+      }
+    },
+    "topicsTitle": "Ensinamos",
+    "topics": {
+      "robotics": "Robótica",
+      "environmental": "Educação ambiental",
+      "computing": "Informática",
+      "maintenance": "Manutenção de PCs",
+      "automation": "Automação e eletrônica",
+      "programming": "Programação"
+    }
+  },
+  "ImpactProcess": {
+    "title": "Do descarte ao impacto",
+    "description": "Como um equipamento parado vira aula de tecnologia.",
+    "steps": {
+      "donation": {
+        "title": "Doação",
+        "description": "Empresas e pessoas doam equipamentos eletrônicos obsoletos."
+      },
+      "collection": {
+        "title": "Coleta",
+        "description": "O Instituto recebe os resíduos com destinação correta e segura."
+      },
+      "reuse": {
+        "title": "Reaproveitamento",
+        "description": "Componentes valiosos são separados e viram kits de robótica."
+      },
+      "education": {
+        "title": "Educação",
+        "description": "Jovens e comunidades aprendem a usar a tecnologia de forma sustentável."
+      }
+    },
+    "imageAlt": "Robô de papelão com rodas, montado sobre equipamentos eletrônicos descartados"
+  },
+  "WasteTypes": {
+    "title": "O que você pode descartar",
+    "description": "Recebemos equipamentos eletroeletrônicos de todas as linhas.",
+    "lines": {
+      "white": {
+        "title": "Linha branca",
+        "items": "Geladeiras, fogões, lavadoras, secadoras"
+      },
+      "brown": {
+        "title": "Linha marrom",
+        "items": "TVs, rádios, câmeras, DVDs"
+      },
+      "green": {
+        "title": "Linha verde",
+        "items": "Computadores, impressoras, celulares, laptops"
+      },
+      "blue": {
+        "title": "Linha azul",
+        "items": "Furadeiras, liquidificadores, batedeiras, ferros elétricos"
+      }
+    }
+  },
+  "CollectionPoints": {
+    "title": "O descarte correto começa perto de você.",
+    "description": "Encontre o ponto de coleta voluntária mais próximo e leve seus eletrônicos sem uso.",
+    "searchLabel": "Buscar por bairro, cidade ou local",
+    "searchPlaceholder": "Ex.: Aldeota, Centro, Messejana",
+    "resultsCount": "{count, plural, =0 {Nenhum ponto encontrado} one {# ponto encontrado} other {# pontos encontrados}}",
+    "empty": "Nenhum ponto encontrado. Tente outro bairro ou fale com a gente pelo WhatsApp.",
+    "showAll": "Ver todos os {count} pontos",
+    "showLess": "Mostrar menos",
+    "filterLabel": "Filtrar por cidade",
+    "allCities": "Todas",
+    "nearMe": "Perto de mim",
+    "locating": "Localizando…",
+    "locationError": "Não foi possível usar sua localização. Verifique a permissão do navegador ou busque pelo bairro.",
+    "sortedByDistance": "ordenados por distância",
+    "mapLabel": "Mapa com {count, plural, one {# ponto} other {# pontos}} de coleta",
+    "mapLoading": "Carregando o mapa…",
+    "mapHint": "Use dois dedos para mover o mapa",
+    "youAreHere": "Você está aqui",
+    "directions": "Como chegar",
+    "distance": "{km} km",
+    "missingCoords": "{count, plural, one {# ponto ainda não aparece} other {# pontos ainda não aparecem}} no mapa, mas estão na lista."
+  },
+  "Projects": {
+    "title": "Projetos e histórias",
+    "carouselLabel": "Fotos de projetos e ações do Instituto. Role para o lado para ver mais.",
+    "items": {
+      "campaign": {
+        "caption": "Campanha E-Lixo Zero",
+        "imageAlt": "Equipe do Instituto e parceiros diante de um caminhão com resíduos eletrônicos"
+      },
+      "workshops": {
+        "caption": "Oficinas na comunidade",
+        "imageAlt": "Menino desmonta um equipamento eletrônico em uma oficina"
+      },
+      "community": {
+        "caption": "Ações sociais",
+        "imageAlt": "Grupo de crianças e jovens sorrindo em uma ação do Instituto"
+      },
+      "box": {
+        "caption": "Caixa de coleta E-Lixo Zero",
+        "imageAlt": "Caixa de madeira para coleta de resíduos eletrônicos com o selo E-Lixo Zero"
+      },
+      "team": {
+        "caption": "Nossa equipe",
+        "imageAlt": "Equipe do Instituto Robótica Sustentável reunida"
+      }
+    },
+    "mediaTitle": "Na mídia",
+    "mediaList": "G1 · Globoplay · Um Só Planeta · O Povo · Tribuna do Ceará · Red Bull Amaphiko 2019"
+  },
+  "Partners": {
+    "title": "Vamos construir um futuro mais sustentável",
+    "description": "Sua empresa fortalece a gestão ESG, engaja colaboradores e transforma resíduos em educação.",
+    "plans": {
+      "donation": {
+        "name": "Doação de resíduos",
+        "price": "Gratuita",
+        "description": "Coleta no local, declaração de doação e relatório ESG anual."
+      },
+      "sustainability": {
+        "name": "Sustentabilidade",
+        "price": "R$ 1.000",
+        "description": "Selo E-Lixo Zero, coleta mensal e 2 eventos por ano."
+      },
+      "technology": {
+        "name": "Tecnologia",
+        "price": "R$ 2.000",
+        "description": "Marketing ampliado e 4 eventos de robótica por ano."
+      },
+      "robotics": {
+        "name": "Robótica Sustentável",
+        "price": "R$ 3.000",
+        "description": "1 evento por mês, mascote e app para eventos da empresa."
+      }
+    },
+    "pricesNote": "Valores de referência. Fale com a gente para montar a parceria ideal.",
+    "cta": "Quero ser parceiro"
+  },
+  "Footer": {
+    "description": "Educação tecnológica e sustentável em Fortaleza, Ceará.",
+    "navLabel": "Navegação do rodapé",
+    "navTitle": "Navegação",
+    "contactTitle": "Contato",
+    "copyright": "© Instituto Robótica Sustentável"
+  },
+  "Contact": {
+    "eyebrow": "Fale com a gente",
+    "title": "Leve o Instituto para a sua escola ou empresa",
+    "description": "Preencha o formulário e a conversa continua no WhatsApp da nossa equipe.",
+    "audienceLabel": "Quem está entrando em contato?",
+    "audience": {
+      "school": "Escola",
+      "company": "Empresa"
+    },
+    "audienceHint": {
+      "school": "Oficinas e educação tecnológica para seus alunos",
+      "company": "Coleta de resíduos e parcerias ESG"
+    },
+    "requiredNote": "Campos com * são obrigatórios.",
+    "optional": "opcional",
+    "fields": {
+      "name": "Seu nome",
+      "role": "Cargo ou função",
+      "rolePlaceholder": "Ex.: coordenação pedagógica",
+      "school": "Nome da escola",
+      "network": "Rede de ensino",
+      "city": "Cidade",
+      "students": "Número aproximado de alunos",
+      "interests": "O que interessa à escola?",
+      "company": "Nome da empresa",
+      "interest": "Como quer participar?",
+      "wasteTypes": "Que tipo de equipamento?",
+      "volume": "Volume estimado",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte um pouco mais (datas, turmas, endereço de coleta…)"
+    },
+    "selectPlaceholder": "Selecione",
+    "options": {
+      "network": {
+        "municipal": "Pública municipal",
+        "state": "Pública estadual",
+        "private": "Particular",
+        "social": "ONG ou projeto social"
+      },
+      "interests": {
+        "robotics": "Oficinas de robótica",
+        "environment": "Educação ambiental",
+        "computing": "Informática",
+        "events": "Palestra ou exposição"
+      },
+      "interest": {
+        "donation": "Doar resíduos eletrônicos (coleta gratuita)",
+        "partnership": "Plano de parceria ESG",
+        "dropoff": "Ser um ponto de coleta"
+      },
+      "wasteTypes": {
+        "white": "Linha branca",
+        "brown": "Linha marrom",
+        "green": "Linha verde",
+        "blue": "Linha azul"
+      },
+      "volume": {
+        "small": "Poucos itens",
+        "boxes": "Algumas caixas",
+        "large": "Grande volume ou descarte recorrente"
+      }
+    },
+    "errors": {
+      "required": "Preencha este campo.",
+      "choose": "Escolha uma opção.",
+      "summary": "Confira os campos destacados."
+    },
+    "submit": "Continuar no WhatsApp",
+    "submitHint": "Abre o WhatsApp com a mensagem pronta. Nada é enviado antes de você confirmar lá.",
+    "opened": "Abrimos o WhatsApp em uma nova aba com a sua mensagem.",
+    "openFallback": "Não abriu? Toque aqui",
+    "whatsapp": {
+      "schoolIntro": "Olá! Vim pelo site e quero levar a educação tecnológica do Instituto para a minha escola.",
+      "companyIntro": "Olá! Vim pelo site e quero falar sobre reciclagem de eletrônicos na minha empresa.",
+      "labels": {
+        "name": "Nome",
+        "interests": "Interesses",
+        "interest": "Interesse",
+        "wasteTypes": "Equipamentos"
+      }
+    }
+  }
+}
