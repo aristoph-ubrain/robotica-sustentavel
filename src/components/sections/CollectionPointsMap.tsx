@@ -29,6 +29,9 @@ const FORTALEZA: [number, number] = [-3.7319, -38.5267];
 /** Raio da região metropolitana (Paracuru fica a ~80 km). */
 const NEARBY_KM = 150;
 
+/** "Perto de mim": até essa distância o ponto mais próximo entra no zoom junto. */
+const NEAREST_FRAME_KM = 15;
+
 /** Distância aproximada em km (haversine). */
 function distanceKm([lat1, lng1]: [number, number], { lat: lat2, lng: lng2 }: { lat: number; lng: number }) {
   const rad = (deg: number) => (deg * Math.PI) / 180;
@@ -201,6 +204,32 @@ export default function CollectionPointsMap({
       keyboard: false,
       interactive: false,
     }).addTo(map);
+
+    // Aproxima na localização atual. Se houver um ponto na região, enquadra
+    // também o mais próximo, para a pessoa já ver para onde ir.
+    const here: [number, number] = [userPosition.lat, userPosition.lng];
+    let nearest: [number, number] | null = null;
+    let nearestKm = Infinity;
+    markersRef.current.forEach((marker) => {
+      const { lat, lng } = marker.getLatLng();
+      const km = distanceKm(here, { lat, lng });
+      if (km < nearestKm) {
+        nearestKm = km;
+        nearest = [lat, lng];
+      }
+    });
+
+    const animate = !prefersReducedMotion();
+    if (nearest && nearestKm <= NEAREST_FRAME_KM) {
+      const compact = window.matchMedia("(max-width: 47.99rem)").matches;
+      map.fitBounds(L.latLngBounds([here, nearest]), {
+        padding: compact ? [48, 48] : [72, 72],
+        maxZoom: 16,
+        animate,
+      });
+    } else {
+      map.setView(here, 14, { animate });
+    }
   }, [ready, userPosition, userLabel]);
 
   return <div ref={containerRef} role="region" aria-label={label} className="size-full" />;

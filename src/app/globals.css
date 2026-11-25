@@ -82,6 +82,8 @@
 
 @layer base {
   :root {
+    /* Tema sempre claro (inclui campos de formulário, barras de rolagem e o mapa). */
+    color-scheme: only light;
     --cor-foco: var(--color-verde-escuro);
   }
 

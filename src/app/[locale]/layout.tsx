@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Baloo_2, Nunito_Sans } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -28,6 +28,13 @@ const nunito = Nunito_Sans({
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
+};
+
+// Tema sempre claro: o site não tem versão escura e "only light" também
+// impede o escurecimento automático de navegadores (Chrome/Samsung no Android).
+export const viewport: Viewport = {
+  colorScheme: "only light",
+  themeColor: "#ffffff",
 };
 
 export function generateStaticParams() {

@@ -31,7 +31,8 @@
     "description": "Transformamos resíduos eletrônicos em educação tecnológica e sustentável, beneficiando as pessoas que mais precisam.",
     "ctaPrimary": "Encontre um ponto de coleta",
     "ctaSecondary": "Conheça o Instituto",
-    "imageAlt": "Estudantes montando robôs em oficina"
+    "videoTitle": "História do nosso instituto Robótica Sustentável",
+    "videoPlay": "Assistir ao vídeo"
   },
   "Impact": {
     "title": "Nosso impacto",
@@ -112,7 +113,7 @@
   },
   "WasteTypes": {
     "title": "O que você pode descartar",
-    "description": "Recebemos equipamentos eletroeletrônicos de todas as linhas.",
+    "description": "Recebemos equipamentos eletroeletrônicos de todas as linhas. ",
     "lines": {
       "white": {
         "title": "Linha branca",

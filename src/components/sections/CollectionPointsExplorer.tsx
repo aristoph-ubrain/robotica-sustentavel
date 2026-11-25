@@ -128,11 +128,14 @@ export default function CollectionPointsExplorer({
 
   function selectFromList(point: CollectionPoint) {
     setSelectedId(point.id);
-    // No celular o mapa fica acima da lista: traz o mapa para a tela.
-    if (hasCoords(point) && window.matchMedia("(max-width: 63.99rem)").matches) {
-      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      mapWrapperRef.current?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
-    }
+    if (hasCoords(point)) scrollMapIntoView();
+  }
+
+  /** No celular o mapa fica acima da lista: traz o mapa para a tela. */
+  function scrollMapIntoView() {
+    if (!window.matchMedia("(max-width: 63.99rem)").matches) return;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    mapWrapperRef.current?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
   }
 
   function toggleLocation() {
@@ -150,6 +153,7 @@ export default function CollectionPointsExplorer({
       ({ coords }) => {
         setUserPosition({ lat: coords.latitude, lng: coords.longitude });
         setLocation("active");
+        scrollMapIntoView();
       },
       () => setLocation("error"),
       { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 },

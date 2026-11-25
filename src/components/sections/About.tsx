@@ -16,7 +16,7 @@ export default async function About() {
   const t = await getTranslations("About");
 
   return (
-    <section id="instituto" aria-labelledby="instituto-titulo">
+    <section id="instituto" aria-labelledby="instituto-titulo" className="pt-secao lg:pt-secao-lg">
       <Container>
         <Reveal className="rounded-painel bg-fundo-suave px-5 py-6 lg:grid lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-12 lg:px-12 lg:py-12">
           <SectionHeading

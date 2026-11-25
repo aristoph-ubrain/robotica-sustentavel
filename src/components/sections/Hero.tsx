@@ -1,10 +1,11 @@
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 import { ButtonLink } from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
+import YouTubeVideo from "@/components/ui/YouTubeVideo";
 
-import oficinaMontagem from "../../../public/images/home/oficina-montagem.jpg";
+/** "História do nosso instituto Robótica Sustentável" (canal do Instituto). */
+const VIDEO_ID = "JRbQr4jTiXc";
 
 /** Linhas de circuito decorativas (canto superior direito). */
 function CircuitLines({ className }: { className?: string }) {
@@ -71,17 +72,15 @@ export default async function Hero() {
           </div>
         </div>
 
-        <div className="relative h-[250px] overflow-hidden rounded-tr-[96px] rounded-bl-[96px] sm:h-[360px] lg:h-[440px]">
-          <Image
-            src={oficinaMontagem}
-            alt={t("imageAlt")}
-            fill
-            preload
-            sizes="(min-width: 1200px) 540px, (min-width: 1024px) calc(50vw - 60px), calc(100vw - 40px)"
-            placeholder="blur"
-            className="object-cover"
-          />
-        </div>
+        <YouTubeVideo
+          id={VIDEO_ID}
+          title={t("videoTitle")}
+          playLabel={t("videoPlay")}
+          preload
+          autoplay
+          sizes="(min-width: 1200px) 540px, (min-width: 1024px) calc(50vw - 60px), calc(100vw - 40px)"
+          className="rounded-tr-[56px] rounded-bl-[20px] sm:rounded-tr-[80px] lg:rounded-tr-[96px] lg:rounded-bl-[24px]"
+        />
       </Container>
     </section>
   );

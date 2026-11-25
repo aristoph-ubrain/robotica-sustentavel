@@ -18,7 +18,7 @@ export default async function WasteTypes() {
   const t = await getTranslations("WasteTypes");
 
   return (
-    <section aria-labelledby="descarte-titulo" className="pt-secao lg:pt-secao-lg">
+    <section aria-labelledby="descarte-titulo">
       <Container>
         <Reveal>
           <SectionHeading
