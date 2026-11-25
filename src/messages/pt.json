@@ -113,7 +113,7 @@
   },
   "WasteTypes": {
     "title": "O que você pode descartar",
-    "description": "Recebemos equipamentos eletroeletrônicos de todas as linhas. ",
+    "description": "Recebemos equipamentos eletroeletrônicos de todas as linhas.",
     "lines": {
       "white": {
         "title": "Linha branca",
